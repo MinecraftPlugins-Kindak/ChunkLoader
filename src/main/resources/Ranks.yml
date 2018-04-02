@@ -1,0 +1,42 @@
+1:
+  Name: level 1
+  Minutes: 60
+  Cooldown: 10
+  Price: 0
+  Radius: 5
+2:
+  Name: level 2
+  Minutes: 60
+  Cooldown: 10
+  Price: 100
+  Radius: 5
+3:
+  Name: level 3
+  Minutes: 60
+  Cooldown: 10
+  Price: 500
+  Radius: 5
+4:
+  Name: level 4
+  Minutes: 60
+  Cooldown: 10
+  Price: 10000
+  Radius: 5
+5:
+  Name: level 5
+  Minutes: 60
+  Cooldown: 10
+  Price: 10000
+  Radius: 5
+6:
+  Name: level 6
+  Minutes: 60
+  Cooldown: 10
+  Price: 10000
+  Radius: 5
+7:
+  Name: level 7
+  Minutes: 60
+  Cooldown: 10
+  Price: 10000
+  Radius: 5

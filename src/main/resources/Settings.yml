@@ -1,0 +1,38 @@
+# Use & for colors!
+
+Npc:
+  # %owner% will be replaced with owners name
+  # %time% will be replaced with how many minutes there are left
+  Npc_Name: "Owner: %owner% - Timeleft: %time%"
+  Npc_Death_Message: "Your npc has died!"
+
+Lang:
+  Player_Cant_SpawnNPC: "You can not spawn a npc!"
+  Player_SpawnNPC: "You have spawned a npc!"
+  Player_Cant_KillNpc: "You dont have an npc!"
+  Player_KillNpc: "You killed your npc!"
+  # %currentnoney% will be replaced with their current amout of money
+  # %price% will be replaced with price of upgrade
+  # %rank% will be replaced with rank name
+  Player_Upgrade_Bought: "You have upgraded to %rank% for %price%!"
+  # %currentmoney% will be replaced with their current amout of money
+  # %price% will be replaced with price of upgrade
+  # %rank% will be replaced with rank name
+  insufficient_Money: "The price for the upgrade is %price% and all you have left is %currentmoney%!"
+  # %time% will be replaced with time left for cooldown to expire.
+  Cooldown_Message: "Cooldown: %time% minutes!"
+  Upgrade_To_High: "You cannot upgrade to that level yet!"
+  Reload_Message: "You have reloaded the configs!"
+Upgrade:
+  Title: "Upgrade store!"
+  # %price% will be replaced with rank price
+  # %level% will be replaced with rank level
+  # %cooldown% will be replaced with rank cooldown
+  # %minutes% will be replaced with amount of minutes npc will live
+  # %radius% will be replaced with radius of npc's effect
+  Lore:
+  - "Price: %price%"
+  - "Levl: %level%"
+  - "Cooldown: %cooldown%"
+  - "Lifetime: %minutes%"
+  - "Radius: %radius%"

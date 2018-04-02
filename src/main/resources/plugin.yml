@@ -1,0 +1,18 @@
+name: ChunkLoader
+version: ${project.version}
+main: se.kindak.chunkloader.ChunkLoader
+depends: [vault]
+authors: [Kindak]
+description: Npc that loades chunks for player so they dont have to afk
+load: POSTWORLD
+website: https://www.spigotmc.org/members/kindak.239995/
+
+commands:
+  chunkloader:
+    description:
+    aliases: [cl,cloader]
+
+permissions:
+  chunkloader.realod:
+    description: "gives you acces to Chunkloader reload"
+    default: op
